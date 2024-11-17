@@ -1,0 +1,36 @@
+{
+  "name": "Ecopetrol Token 1:1",
+  "symbol": "ECOT",
+  "description": "Este token manejara el precio de las acciones de ecopetrol 1:1 modificando su supply",
+  "seller_fee_basis_points": 500,
+  "image": "https://github.com/Shercan-Enerion/CRSOL/blob/main/ECOT.png",
+  "external_url": "https://www.ecopetrol.com.co/wps/portal/",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Power",
+      "value": 100
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "CreadorWalletAddress",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://github.com/Shercan-Enerion/CRSOL/blob/main/ECOT.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "My Token Collection",
+    "family": "Solana Tokens"
+  }
+}
